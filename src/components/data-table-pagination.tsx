@@ -6,7 +6,7 @@ import {
 } from "@radix-ui/react-icons"
 import { Table } from "@tanstack/react-table"
 import { Button } from "./ui/Button"
-import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "./ui/select"
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "./ui/Select-Dropdown"
 
 
 interface DataTablePaginationProps<TData> {

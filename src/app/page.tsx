@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import { data } from "../../Static/TableData";
-import Sidebar from "@/components/Slidbar";
-import { DataTable } from "@/components/Datatable";
+import { data } from "../../static-data/TableData";
+import Sidebar from "@/components/slidbar-panel";
+import { DataTable } from "@/components/data-table";
 
 interface Filter {
   show: boolean;
